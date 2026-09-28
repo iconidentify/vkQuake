@@ -738,6 +738,7 @@ void CL_PlayDemo_f (void)
 
 	// get rid of the menu and/or console
 	key_dest = key_game;
+	IN_Activate ();
 }
 
 /*
